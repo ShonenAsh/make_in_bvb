@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "226280942662",
+    "firebase_url": "https://make-in-bvb-app.firebaseio.com",
+    "project_id": "make-in-bvb-app",
+    "storage_bucket": "make-in-bvb-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226280942662:android:edeea107f5c83d5c",
+        "android_client_info": {
+          "package_name": "com.ashmakesstuff.makeinbvb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226280942662-b9fpuudqeakskn7hmi7sgo68n0vkevn8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ashmakesstuff.makeinbvb",
+            "certificate_hash": "ae994521e5b65418f19f9550ec518ef14bcaa86b"
+          }
+        },
+        {
+          "client_id": "226280942662-h467uobvtvncvjfvmb4pqhc7dotuv2mm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVS0j6jMDG5z6YljTqkhRrc_JrgEsjYSc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "226280942662-h467uobvtvncvjfvmb4pqhc7dotuv2mm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
