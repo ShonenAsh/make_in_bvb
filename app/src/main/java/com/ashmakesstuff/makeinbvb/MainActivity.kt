@@ -19,6 +19,7 @@ import com.google.firebase.auth.FirebaseAuth
 class MainActivity : AppCompatActivity() {
     private lateinit var progressBar: ProgressBar
     private lateinit var webView: WebView
+    private val MIB_URL = "https://makeinbvb.com/"
 
 
     companion object {
@@ -37,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         webView.settings.javaScriptEnabled = true
         webView.settings.domStorageEnabled = true
         webView.overScrollMode = WebView.OVER_SCROLL_NEVER
-        webView.loadUrl("https://www.gmail.com")
+        webView.loadUrl(MIB_URL)
 
         //getUserProfile()
 
@@ -82,7 +83,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             R.id.action_refresh -> {
-                webView.loadUrl("https://www.github.com")
+                webView.reload()
                 true
             }
             else -> super.onOptionsItemSelected(item)

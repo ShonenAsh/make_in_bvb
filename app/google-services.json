@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "226280942662-i6k2nrqlbojv62aq8ie9ek8uh95apgmo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ashmakesstuff.makeinbvb",
+            "certificate_hash": "30f399e3b0da65853ad4417f4f11be525b7cecd8"
+          }
+        },
+        {
           "client_id": "226280942662-b9fpuudqeakskn7hmi7sgo68n0vkevn8.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

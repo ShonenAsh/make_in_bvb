@@ -33,13 +33,6 @@ class LoginActivity : AppCompatActivity() {
         val aB = supportActionBar!!
         aB.hide()
 
-//        mAuth = FirebaseAuth.getInstance()
-//        // Configure Google Sign In
-//        val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-//            .requestIdToken(getString(R.string.default_web_client_id))
-//            .requestEmail()
-//            .build()
-
         firebaseAuth = FirebaseAuth.getInstance()
 
         val user = FirebaseAuth.getInstance().currentUser
